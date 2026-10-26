@@ -24,7 +24,8 @@ This Business Intelligence project delivers an end-to-end, interactive executive
 
 ## 🖥️ Interactive Dashboard Preview
 
-![Sales Dashboard](Screenshot%202026-10-26%20223509.png)
+<img width="1647" height="848" alt="Screenshot 2026-10-26 223509" src="https://github.com/user-attachments/assets/8eb6c476-2e4a-42e1-b420-a4987bb61810" />
+
 *Figure 1: Complete Interactive Tableau Sales Dashboard developed by Anurag Kumar Poddar.*
 
 ---
@@ -38,7 +39,8 @@ This Business Intelligence project delivers an end-to-end, interactive executive
 | **Average Order Value (AOV)** | **2,529** | Exact portfolio mean: **2,528.79** per invoice |
 | **Total Valid Invoices** | **99,457** | 100% unique customer transactions (2 null records filtered) |
 
-![KPI Banner](Screenshot%202026-10-26%20223738.png)
+<img width="1442" height="162" alt="Screenshot 2026-10-26 223738" src="https://github.com/user-attachments/assets/4f39dc33-6df7-4453-a648-9478413d0fb9" />
+
 
 ---
 
@@ -66,7 +68,8 @@ The workbook (`Sales Dashboard.twb`) connects to `customer_shopping_data.csv` vi
 ## 📈 Key Analytical Findings & Deep-Dive Diagnostics
 
 ### 1. Spatial Performance: Three-Tier Shopping Mall Hierarchy
-![Sales by Malls](Screenshot%202026-10-26%20223616.png)
+<img width="1437" height="346" alt="Screenshot 2026-10-26 223616" src="https://github.com/user-attachments/assets/b47bd096-8529-4cf8-9b91-0e99d4a57539" />
+
 
 | Shopping Mall | Tier Classification | Total Sales | Revenue Share | Units Sold | Total Invoices | Mall AOV |
 | :--- | :--- | ---: | ---: | ---: | ---: | ---: |
@@ -86,7 +89,8 @@ The workbook (`Sales Dashboard.twb`) connects to `customer_shopping_data.csv` vi
 ---
 
 ### 2. Product Portfolio Mix: Extreme Pareto Concentration (94.79% in Top 3)
-![Sales by Category](Screenshot%202026-10-26%20223651.png)
+<img width="1442" height="762" alt="Screenshot 2026-10-26 223651" src="https://github.com/user-attachments/assets/78dfdb99-b501-4629-9f8d-2dcb93f03ef7" />
+
 
 | Category | Total Sales | Revenue Share | Units Sold | Total Invoices | Invoice Share | Avg Unit Price | Category AOV |
 | :--- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
@@ -105,7 +109,8 @@ The workbook (`Sales Dashboard.twb`) connects to `customer_shopping_data.csv` vi
 ---
 
 ### 3. Temporal & Seasonal Dynamics: Sales by Invoice Month
-![Sales By Invoice Month](Screenshot%202026-10-26%20223701.png)
+<img width="1440" height="762" alt="Screenshot 2026-10-26 223701" src="https://github.com/user-attachments/assets/3abceb4d-3c84-4fe5-b575-045ef5dd0179" />
+
 
 * **Apparent Q1 Peak vs. Underlying Multi-Year Coverage:** Aggregated monthly sales peak in **January (`28.89M`)** and **February (`26.63M`)**, taper in **March (`21.96M`)**, and stabilize between **`18.21M` and `20.55M`** from April through December.
 * **Root-Cause Audit:** The dataset spans two full calendar years (**2021:** `114.56M` across `45,382` bills; **2022:** `115.44M` across `45,551` bills) plus **Q1 2023 through March 8, 2023** (`21.51M` across `8,524` bills). Because `MONTH(Invoice Date)` aggregates across years, January and February stack **3 calendar years of transactions**, whereas April–December stack **2 years**. Normalized annually, monthly demand is highly stable (~`9.5M–10.3M`/month), with true single-year seasonal peaks in **October** (`10.27M`/yr; highest AOV at `2,646.20`) and **July** (`10.19M`/yr).
@@ -116,7 +121,10 @@ The workbook (`Sales Dashboard.twb`) connects to `customer_shopping_data.csv` vi
 
 | Payment Method Breakdown | Customer Gender Split |
 | :---: | :---: |
-| ![Sales by Payment Method](Screenshot%202026-10-26%20223625.png) | ![Sales by Gender](Screenshot%202026-10-26%20223639.png) |
+<img width="1175" height="672" alt="Screenshot 2026-10-26 223625" src="https://github.com/user-attachments/assets/ab5c4708-84a8-42f4-96ce-3e3466bfc8f0" />
+<img width="1111" height="660" alt="Screenshot 2026-10-26 223639" src="https://github.com/user-attachments/assets/17c19ae7-c086-46e5-af38-c65b3480eb19" />
+
+
 
 * **Gender Segmentation:** **Female shoppers** generate **59.72% of revenue** (`150,207,136` across `59,482` bills; AOV `2,525.25`), while **Male shoppers** account for **40.28%** (`101,298,658` across `39,975` bills; AOV `2,534.05`). Because AOV is nearly identical between genders, higher Female revenue is purely a function of **1.49x higher shopping frequency**.
 * **Payment Preferences:** **Cash** is the single largest payment method at **44.86%** (`112.83M` / `44,447` bills), but combined digital card payments (**Credit Card `35.02%`** + **Debit Card `20.12%`**) account for **55.14%** (`138.67M`) of total sales.
@@ -147,3 +155,4 @@ The workbook (`Sales Dashboard.twb`) connects to `customer_shopping_data.csv` vi
 ├── Tableau_Sales_Dashboard_Project_Report_Anurag_Kumar_Poddar.pdf   # Executive Project Report (PDF)
 ├── Tableau_Sales_Dashboard_Project_Report_Anurag_Kumar_Poddar.docx  # Executive Project Report (MS Word)
 └── README.md                                               # Project Documentation
+
