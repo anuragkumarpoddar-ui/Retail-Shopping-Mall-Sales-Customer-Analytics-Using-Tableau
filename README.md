@@ -134,8 +134,8 @@ The workbook (`Sales Dashboard.twb`) connects to `customer_shopping_data.csv` vi
 ## 💡 Strategic Business & BI Recommendations
 
 1. **Cross-Category Voucher Bundling (Cosmetics & F&B $\rightarrow$ Apparel):** Issue automated POS discount vouchers (e.g., *10% off Clothing or Shoes on Cosmetics/F&B bills above 150*) across the `29,873` high-frequency impulse transactions to lift portfolio AOV by **+5% to +8%**.
-2. **Cash-to-Digital Card Migration:** Partner with issuing banks to offer instant 3% cashback or zero-cost EMI on Credit/Debit transactions in **Technology** (`AOV 11,582`) and **Shoes** (`AOV 6,633`), reducing physical cash-handling overhead (`44.86%` share) by **15%–20%**.
-3. **Tier-3 Mall Footfall Activation:** Since Tier-3 malls (*Zorlu Center, Cevahir AVM, Viaport Outlet, Emaar Square, Forum Istanbul*) already match flagship AOV (~`2,535`), reallocate localized weekend event marketing and Female loyalty campaigns to boost footfall by **12%–15%** (~`9M+` incremental revenue).
+2. **Cash-to-Digital Card Migration:** Partner with issuing banks to offer instant 3% cashback or zero-cost EMI on Credit/Debit transactions in **Technology** (`AOV 11,582`) and **Shoes**   (`AOV 6,633`), reducing physical cash-handling overhead (`44.86%` share) by **15%–20%**.
+3. **Tier-3 Mall Footfall Activation:** Since Tier-3 malls (*Zorlu Center, Cevahir AVM, Viaport Outlet, Emaar Square, Forum Istanbul*) already match flagship AOV (~`2,535`), reallocate localized weekend event marketing and Female loyalty campaigns to boost footfall by **12%–15%**   (~`9M+` incremental revenue).
 4. **Dashboard v2.0 Roadmap:** Introduce a `YEAR(Invoice Date)` context filter and YoY Growth % KPI cards to separate full-year comparisons (2021 vs. 2022) from partial-year 2023 data.
 
 ---
