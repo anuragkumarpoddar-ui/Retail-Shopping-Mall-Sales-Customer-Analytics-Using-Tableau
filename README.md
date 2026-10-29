@@ -140,6 +140,7 @@ The workbook (`Sales Dashboard.twb`) connects to `customer_shopping_data.csv` vi
 
 ---
 
+
 ## 📂 Repository File Structure
 
 ```text
