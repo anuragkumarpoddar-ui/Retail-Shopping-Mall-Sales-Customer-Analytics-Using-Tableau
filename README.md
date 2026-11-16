@@ -125,7 +125,6 @@ The workbook (`Sales Dashboard.twb`) connects to `customer_shopping_data.csv` vi
 <img width="1111" height="660" alt="Screenshot 2026-10-26 223639" src="https://github.com/user-attachments/assets/17c19ae7-c086-46e5-af38-c65b3480eb19" />
 
 
-
 * **Gender Segmentation:** **Female shoppers** generate **59.72% of revenue** (`150,207,136` across `59,482` bills; AOV `2,525.25`), while **Male shoppers** account for **40.28%** (`101,298,658` across `39,975` bills; AOV `2,534.05`). Because AOV is nearly identical between genders, higher Female revenue is purely a function of **1.49x higher shopping frequency**.
 * **Payment Preferences:** **Cash** is the single largest payment method at **44.86%** (`112.83M` / `44,447` bills), but combined digital card payments (**Credit Card `35.02%`** + **Debit Card `20.12%`**) account for **55.14%** (`138.67M`) of total sales.
 
